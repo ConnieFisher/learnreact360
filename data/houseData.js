@@ -2,9 +2,10 @@ export default house = {
   House: {
     roomName: 'House',
     info: `
-      * 4 bedroom
-      * 3 bath
-      * Priced at $180,000`,
+      * 3 bedroom
+      * 2 1/2 bath
+      * On Lake Wylie
+      * Priced at $750,000`,
     adjacentRooms: ['LivingRoom'],
   },
   LivingRoom: {
