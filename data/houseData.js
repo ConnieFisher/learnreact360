@@ -19,7 +19,7 @@ export default house = {
 	    * Ceiling mounted speakers.
       * Hardwood Floors.`,
     img: 'LivingRoom.jpg',
-    adjacentRooms: ['Kitchen', 'EdsOffice']
+    adjacentRooms: ['Kitchen', 'EdsOffice','ConniesOffice']
   },
   EdsOffice: {
     roomName: 'EdsOffice',
@@ -40,8 +40,8 @@ export default house = {
       * Birchwood custom cabinets and pantry with elegant crown molding.
       * Stainless steel 9" extra deep double sinks with pullout faucet.
       * Under cabinet and top of cabinet LED lights.`,
-    img: 'kitchen.jpg',
-    adjacentRooms: ['Living_Room','Pantry']
+    img: 'Kitchen.jpg',
+    adjacentRooms: ['LivingRoom','Pantry']
   },
   Pantry: {
     roomName: 'Pantry',
@@ -125,7 +125,7 @@ export default house = {
       * Cloest Turned into a hideaway office.
       * Mounted TV on Wall.
       * Futon waiting for a quest.`,
-    img: 'BackHall.jpg',
+    img: 'ConniesOffice.jpg',
     adjacentRooms: ['GuestBath','BackHall']
   },
     Guest: {
