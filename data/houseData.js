@@ -8,6 +8,14 @@ export default house = {
       * Priced at $750,000`,
     adjacentRooms: ['LivingRoom'],
   },
+  Frontporch: {
+    roomName: 'Frontporch' ,
+    info: `
+      * Wrought iron front door.
+      * Elegant etched glass inserts for privacy.`,
+    img: 'Frontporch.jpg',
+    adjacentRooms: ['Kitchen', 'EdsOffice','ConniesOffice']
+  },
   LivingRoom: {
     roomName: 'LivingRoom' ,
     info: `
@@ -19,7 +27,7 @@ export default house = {
 	    * Ceiling mounted speakers.
       * Hardwood Floors.`,
     img: 'LivingRoom.jpg',
-    adjacentRooms: ['Kitchen', 'EdsOffice','ConniesOffice']
+    adjacentRooms: ['Kitchen', 'EdsOffice','ConniesOffice','Frontporch']
   },
   EdsOffice: {
     roomName: 'EdsOffice',
